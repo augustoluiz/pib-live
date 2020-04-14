@@ -1,0 +1,16 @@
+{
+  "name": "pib-live",
+  "version": "1.0.0",
+  "description": "\"RMTP Server to make live streaming\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "auluisi",
+  "license": "ISC",
+  "dependencies": {
+    "marko": "^4.19.9",
+    "node-media-server": "^2.1.6"
+  }
+}

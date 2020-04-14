@@ -1,0 +1,61 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #252525;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.live-icon {
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: red;
+    width: 20px;
+    height: 20px;
+    animation: live 2s infinite;
+}
+
+.text {
+    display: inline-block;
+    text-align: center;
+    color: red;
+    font-family: arial;
+    font-weight: bold;
+    position: relative;
+    left: 5px;
+    top: -4px;
+}
+
+h1 {
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+button {
+    color: red;
+}
+
+@keyframes live {
+    0%,
+    100% {
+        background: none;
+    }
+    50% {
+        background: red;
+    }
+}
